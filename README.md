@@ -1,4 +1,4 @@
-WorthSync: AI-Powered Salary Prediction with Explainable NLP
+# WorthSync: AI-Powered Salary Prediction with Explainable NLP
 
 Overview:
 WorthSync is a full-stack AI project that predicts salaries based on job profiles. It uses advanced NLP techniques to understand the meaning behind job titles and skills, and a fast, optimized LightGBM model to generate predictions. The system is designed to be interpretable, using SHAP to explain how and why salary predictions are made. The entire solution is deployed as an interactive Streamlit web application.
