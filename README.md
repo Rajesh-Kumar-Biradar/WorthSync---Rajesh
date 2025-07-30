@@ -5,19 +5,19 @@ WorthSync is a full-stack AI project that predicts salaries based on job profile
 
 Key Features:
 
-# Predicts salary based on job title, skills, and experience
-# Uses Sentence-BERT embeddings for contextual understanding
-# LightGBM model optimized for accuracy and speed
-# SHAP integration to explain model predictions
-# User-friendly Streamlit web interface
+#Predicts salary based on job title, skills, and experience
+#Uses Sentence-BERT embeddings for contextual understanding
+#LightGBM model optimized for accuracy and speed
+#SHAP integration to explain model predictions
+#User-friendly Streamlit web interface
 
 Project Structure:
 
-# worthsync_app.py → Streamlit application script
-# worthsync_notebook.ipynb → Development and training notebook
-# model/ → Final trained LightGBM model and SHAP explainer
-# data/ → Cleaned and preprocessed dataset
-# assets/ → EDA charts, SHAP visuals, and related images
+#worthsync_app.py → Streamlit application script
+#worthsync_notebook.ipynb → Development and training notebook
+#model/ → Final trained LightGBM model and SHAP explainer
+#data/ → Cleaned and preprocessed dataset
+#assets/ → EDA charts, SHAP visuals, and related images
 
 How to Run the Project (Locally or in Google Colab):
 
@@ -44,15 +44,15 @@ Important: Never share your ngrok token in public code. Use secure methods like 
 
 Model Highlights:
 
-# LightGBM chosen for its speed and performance
-# Final Mean Absolute Error: approximately $26,000
-# NLP embeddings significantly improved prediction accuracy
-# Real-time SHAP explanations for transparency
+#LightGBM chosen for its speed and performance
+#Final Mean Absolute Error: approximately $26,000
+#NLP embeddings significantly improved prediction accuracy
+#Real-time SHAP explanations for transparency
 
 Future Enhancements:
 
-# Expand prediction beyond tech job roles
-# Add economic and geographic indicators like cost of living
-# Host the app permanently on a public cloud
-# Schedule regular model retraining with updated datasets
+#Expand prediction beyond tech job roles
+#Add economic and geographic indicators like cost of living
+#Host the app permanently on a public cloud
+#Schedule regular model retraining with updated datasets
 
