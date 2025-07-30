@@ -1,9 +1,9 @@
 # WorthSync: AI-Powered Salary Prediction with Explainable NLP
 
-Overview:
+# Overview:
 WorthSync is a full-stack AI project that predicts salaries based on job profiles. It uses advanced NLP techniques to understand the meaning behind job titles and skills, and a fast, optimized LightGBM model to generate predictions. The system is designed to be interpretable, using SHAP to explain how and why salary predictions are made. The entire solution is deployed as an interactive Streamlit web application.
 
-Key Features:
+# Key Features:
 
 Predicts salary based on job title, skills, and experience
 
@@ -15,7 +15,7 @@ SHAP integration to explain model predictions
 
 User-friendly Streamlit web interface
 
-Project Structure:
+# Project Structure:
 
 worthsync_app.py → Streamlit application script
 
@@ -27,7 +27,7 @@ data/ → Cleaned and preprocessed dataset
 
 assets/ → EDA charts, SHAP visuals, and related images
 
-How to Run the Project (Locally or in Google Colab):
+# How to Run the Project (Locally or in Google Colab):
 
 Step 1: Clone the repository
 git clone https://github.com/yourusername/worthsync.git
@@ -50,7 +50,7 @@ streamlit run worthsync_app.py
 
 Important: Never share your ngrok token in public code. Use secure methods like environment variables or getpass().
 
-Model Highlights:
+# Model Highlights:
 
 LightGBM chosen for its speed and performance
 
@@ -60,7 +60,7 @@ NLP embeddings significantly improved prediction accuracy
 
 Real-time SHAP explanations for transparency
 
-Future Enhancements:
+# Future Enhancements:
 
 Expand prediction beyond tech job roles
 
@@ -70,5 +70,4 @@ Host the app permanently on a public cloud
 
 Schedule regular model retraining with updated datasets
 
-Author:
 
